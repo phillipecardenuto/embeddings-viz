@@ -1,0 +1,7 @@
+# installing pytorch with cpuonly to avoid GPU issues
+# conda install pytorch torchvision cpuonly -c pytorch
+
+# tensorboard to pytorch https://pytorch.org/tutorials/recipes/recipes/tensorboard_with_pytorch.html
+tensorboard
+
+

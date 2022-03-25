@@ -3,5 +3,18 @@
 
 # tensorboard to pytorch https://pytorch.org/tutorials/recipes/recipes/tensorboard_with_pytorch.html
 tensorboard
+jupyter
+jupyterlab
+pandas
+tqdm
+
+# Install node.js>=12
+conda install -c conda-forge/label/cf202003 nodejs
+
+# Install Jupyterlab tensorboard extension
+# https://github.com/chaoleili/jupyterlab_tensorboard
 
 
+# Create ipykernel
+#conda install ipykernel
+#python -m ipykernel install --user --name embviz --display-name "Python (embviz)"

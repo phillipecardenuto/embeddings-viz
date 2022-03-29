@@ -43,6 +43,8 @@ from typing import List, Union, Tuple, Optional
 
 import numpy as np
 from PIL import Image, ExifTags
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 from tqdm import tqdm
 
